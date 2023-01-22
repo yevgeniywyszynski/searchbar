@@ -1,0 +1,34 @@
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .input-search-style {
+        font-size: 16px;
+    }
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 5px;
+    margin-top: 16px;
+}
+
+.card {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 8px;
+}
+
+.card > .name {
+    margin-bottom: 4px;
+}
+
+.card > .email {
+    font-size: 12px;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}
